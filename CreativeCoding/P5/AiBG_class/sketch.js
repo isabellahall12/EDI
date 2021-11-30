@@ -3,9 +3,6 @@ let img;
 function preload() {
   img = loadImage('assets/AiBGsingle.png');
 }
-function setup() {
-  image(img, 0, 0);
-}
 
 function setup() {//runs once
   createCanvas(720, 720);
@@ -16,11 +13,13 @@ function setup() {//runs once
 function draw() {//runs in a loop
   background(220);
 
+  for(var y = 0; y < 600; y = y + 300) { //loop to create a row of squares in the y direction
+  for(var x = 0; x < 600; x = x + 300) { //loop to create a row of squares in the x direction
 //  translate(60,60);
+  image(img, x, y);
 
 
-//  for(var y = 0; y < 600; y = y + 300) { //loop to create a row of squares in the y direction
-//  for(var x = 0; x < 600; x = x + 300) { //loop to create a row of squares in the x direction
+
 
 //      quad(x,y,
 //      x+ 300,y,
