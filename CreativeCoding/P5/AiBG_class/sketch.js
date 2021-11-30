@@ -26,7 +26,7 @@ function draw() {//runs in a loop
 //      x+ 300,y,
 //      x+ 300,y+300,
 //      x,y+300);
-  }
+//  }
 
 }
 
