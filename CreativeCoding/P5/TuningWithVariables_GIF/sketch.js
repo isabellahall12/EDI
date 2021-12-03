@@ -1,21 +1,26 @@
 let gif;
 function preload() {
-  gif = loadImage('assets/AiBGsingle.png');
+  gif = loadImage('assets/AiBG.gif');
 }
-function setup() {
-  image(gif, 0, 0);
-}
+//function setup() {
+//image(gif, 0, 0);
+//}
 
 function setup() {//runs once
   createCanvas(windowWidth, windowHeight);
-  fill('pink');
-  strokeWeight (1);
+//  fill('pink');
+//  strokeWeight (1);
 }
+
+
 
 function draw() {//runs in a loop
 
 
-  var num = 20; //varible for the number of squares in the array
+  background (77,164,234);
+image(gif, 0, 0);
+
+  var num = 5; //varible for the number of squares in the array
 
    var sideLen = windowWidth/num; //variable for the side length of each square
 
@@ -24,11 +29,9 @@ function draw() {//runs in a loop
 
 
 image(gif,x,y);
-      
+
   }
-
 }
-
 }
 
 function windowResized() {
