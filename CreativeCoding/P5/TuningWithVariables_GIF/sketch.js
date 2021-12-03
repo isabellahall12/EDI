@@ -17,7 +17,8 @@ function setup() {//runs once
 function draw() {//runs in a loop
 
 
-  background (77,164,234);
+  background (255,255,255);
+
 image(gif, 0, 0);
 
   var num = 5; //varible for the number of squares in the array
