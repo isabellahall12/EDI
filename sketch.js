@@ -7,7 +7,7 @@ function preload() {
 //}
 
 function setup() {//runs once
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth * 2, windowHeight*2);
 //  fill('pink');
 //  strokeWeight (1);
 }
@@ -26,7 +26,7 @@ function draw() {//runs in a loop
 
    var sideLen = windowWidth/num; //variable for the side length of each square
 
-  for(var y = 0; y < windowHeight; y = y + sideLen) { //loop to create a row of squares in the y direction
+  for(var y = 0; y < windowHeight * 2; y = y + sideLen) { //loop to create a row of squares in the y direction
   for(var x = 0; x < windowWidth; x = x + sideLen) { //loop to create a row of squares in the x direction
 image(gif,x,y, windowWidth/num,windowWidth/num);
 //image(gif,x,y);
@@ -35,5 +35,5 @@ image(gif,x,y, windowWidth/num,windowWidth/num);
 }
   }
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth, windowHeight * 2);
 }
