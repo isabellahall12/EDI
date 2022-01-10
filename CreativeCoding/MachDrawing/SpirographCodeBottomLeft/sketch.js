@@ -11,7 +11,7 @@ var prevX
 var prevY
 
 function setup() {
-  createCanvas(792, 612)
+  createCanvas(792, 612, SVG)
   angleMode (DEGREES)
   background (30)
 
