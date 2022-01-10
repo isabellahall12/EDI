@@ -13,7 +13,7 @@ var prevY
 function setup() {
   createCanvas(792, 612)
   angleMode (DEGREES)
-  background (30)
+  //background (30)
 
   a1Inc = random (0.1,5)
   a2Inc = random (0.1,5)
@@ -33,11 +33,11 @@ for (var i = 1; i<100; i++) {
   var x2 = x1 + r2 * cos(a2)
   var y2 = y1 + r2 * sin(a2)
 
-  var r = map(sin(frameCount), -1, 1, 100, 200)
-  var g = map(cos(frameCount), -1, 1, 100, 200)
-  var b = map(sin(frameCount), -1, 1, 200, 100)
+  //var r = map(sin(frameCount), -1, 1, 100, 200)
+  //var g = map(cos(frameCount), -1, 1, 100, 200)
+  //var b = map(sin(frameCount), -1, 1, 200, 100)
 
-  stroke(r,g,b)
+  stroke(0,0,0)
 
   line(prevX,prevY, x2, y2)
 
