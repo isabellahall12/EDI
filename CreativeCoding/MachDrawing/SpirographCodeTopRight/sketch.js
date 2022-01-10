@@ -53,7 +53,7 @@ for (var i = 0; i<100; i++) {
 
 }
 
-save("mySVG.svg"); // give file name
+save("SpirographTopRight.svg"); // give file name
   print("saved svg");
   noLoop(); // we just want to export once
 

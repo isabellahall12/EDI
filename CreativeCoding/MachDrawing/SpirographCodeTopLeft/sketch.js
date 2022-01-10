@@ -53,7 +53,7 @@ stroke(0,0,0)
 
 }
 
-save("SpirographCenter.svg"); // give file name
+save("SpirographTopLeft.svg"); // give file name
  print("saved svg");
   noLoop(); // we just want to export once
 
