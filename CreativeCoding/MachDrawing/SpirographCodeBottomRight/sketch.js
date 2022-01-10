@@ -52,10 +52,8 @@ for (var i = 0; i<20; i++) {
  // a2 += a2Inc
 
 }
-
-save("mySVG.svg"); // give file name
-  print("saved svg");
-  noLoop(); // we just want to export once
- // noLoop();
+save("SpirographCenter.svg"); // give file name
+print("saved svg");
+noLoop(); // we just want to export once
 
 }

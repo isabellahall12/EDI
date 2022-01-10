@@ -11,7 +11,7 @@ var prevX
 var prevY
 
 function setup() {
-  createCanvas(792, 612, SVG)
+  createCanvas(792, 612)
   angleMode (DEGREES)
   background (30)
 
@@ -26,7 +26,7 @@ function draw() {
   stroke(255)
 
 
-for (var i = 0; i<20; i++) {
+for (var i = 1; i<100; i++) {
   var x1 = r1 * cos(a1)
   var y1 = r1 * sin(a1)
 
@@ -53,6 +53,8 @@ for (var i = 0; i<20; i++) {
 
 }
 
- // noLoop();
+save("SpirographCenter.svg"); // give file name
+ print("saved svg");
+  noLoop(); // we just want to export once
 
 }
