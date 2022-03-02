@@ -7,7 +7,7 @@ function preload() {
 //}
 
 function setup() {//runs once
-  createCanvas(windowWidth , windowHeight*2);
+  createCanvas(windowWidth , windowHeight*2.19);
 //  fill('pink');
 //  strokeWeight (1);
 }
@@ -35,5 +35,5 @@ image(gif,x,y, windowWidth/num,windowWidth/num);
 }
   }
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight * 2);
+  resizeCanvas(windowWidth, windowHeight*2);
 }
