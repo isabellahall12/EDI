@@ -7,7 +7,7 @@ function preload() {
 //}
 
 function setup() {//runs once
-  createCanvas(windowWidth , windowHeight*2.19);
+  createCanvas(windowWidth , windowHeight*2);
 //  fill('pink');
 //  strokeWeight (1);
 }
