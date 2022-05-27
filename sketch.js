@@ -35,5 +35,5 @@ image(gif,x,y, windowWidth/num,windowWidth/num);
 }
   }
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight*2);
+  resizeCanvas(windowWidth, windowHeight*3);
 }
